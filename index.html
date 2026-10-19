@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Giao diện giản lược</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Fixed Header -->
+    <header>
+        <div class="header-left">
+            <a href="#" class="logo">facebook</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm trên Facebook">
+            </div>
+        </div>
+        <nav class="header-nav">
+            <a href="#" class="active">Trang chủ</a>
+            <a href="#">Bạn bè</a>
+            <a href="#">Video</a>
+            <a href="#">Nhóm</a>
+        </nav>
+    </header>
+
+    <!-- Body Layout -->
+    <div class="layout-container">
+        <!-- Sidebar bên trái -->
+        <aside class="left-sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="#">Trang cá nhân</a></li>
+                <li><a href="#">Bạn bè</a></li>
+                <li><a href="#">Kỷ niệm</a></li>
+                <li><a href="#">Đã lưu</a></li>
+                <li><a href="#">Nhóm</a></li>
+                <li><a href="#">Marketplace</a></li>
+            </ul>
+        </aside>
+
+        <!-- Nội dung chính (Feed) -->
+        <main class="main-feed">
+            <div class="create-post">
+                <textarea rows="3" placeholder="Bạn đang nghĩ gì thế?"></textarea>
+                <button type="button">Đăng</button>
+                <div style="clear: both;"></div>
+            </div>
+
+            <article class="post-card">
+                <div class="post-header">
+                    <div class="avatar">A</div>
+                    <div class="user-info">
+                        <h4>Nguyễn Văn A</h4>
+                        <span>2 giờ trước</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Chào mừng bạn đến với giao diện giản lược của trang chủ Facebook được xây dựng hoàn toàn bằng CSS cơ bản và layout cố định!</p>
+                </div>
+                <div class="post-actions">
+                    <button>Thích</button>
+                    <button>Bình luận</button>
+                    <button>Chia sẻ</button>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-header">
+                    <div class="avatar" style="background-color: #e67e22;">B</div>
+                    <div class="user-info">
+                        <h4>Trần Thị B</h4>
+                        <span>5 giờ trước</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Luyện tập fixed header và sidebar giúp hiểu rõ hơn về các thuộc tính position trong CSS.</p>
+                </div>
+                <div class="post-actions">
+                    <button>Thích</button>
+                    <button>Bình luận</button>
+                    <button>Chia sẻ</button>
+                </div>
+            </article>
+        </main>
+
+        <!-- Sidebar bên phải -->
+        <aside class="right-sidebar">
+            <h3>Người liên hệ</h3>
+            <ul class="contact-list">
+                <li>
+                    <div class="contact-avatar">D</div>
+                    <span>Lê Đức Anh</span>
+                </li>
+                <li>
+                    <div class="contact-avatar">T</div>
+                    <span>Nguyễn Xuân Trường</span>
+                </li>
+                <li>
+                    <div class="contact-avatar">D</div>
+                    <span>Phạm Việt Dũng</span>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+</body>
+</html>
